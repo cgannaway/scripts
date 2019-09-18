@@ -61,7 +61,7 @@ def cipher(messagein, mode, key):
                     position += 26
             
             messageout = messageout + Alphabet[position]
-            
+    print "message :"
     print messageout
 
 main()
