@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MPHRunner",
+            "request": "launch",
+            "mainClass": "MPHRunner",
+            "projectName": "oop_1d8385bb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TriangleRunner",
+            "request": "launch",
+            "mainClass": "TriangleRunner",
+            "projectName": "oop_1d8385bb"
+        }
+    ]
+}
