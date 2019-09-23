@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MPHRunner",
+            "request": "launch",
+            "mainClass": "MPHRunner",
+            "projectName": "scripts_a49ed7c1"
+        }
+    ]
+}

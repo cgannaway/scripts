@@ -6,6 +6,8 @@ import java.util.Scanner;
 import static java.lang.System.*;
 import static java.lang.Math.*;
 
+//fix print float, going past tenths place
+
 public class MilesPerHour
 {
 	private int distance, hours, minutes;
@@ -22,7 +24,6 @@ public class MilesPerHour
 	{
 		setNums(dist,hrs,mins);
 		calcTotHrs();
-
 	}
 
 	public void setNums(int dist, int hrs, int mins)
