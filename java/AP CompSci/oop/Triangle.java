@@ -44,7 +44,7 @@ public class Triangle
 	public void calcArea( )
 	{
 		double s = perimeter/2;
-		theArea = sqrt(s*(s-sideA)*(s-sideB)*(s-sideC));
+		theArea = Math.sqrt(s*(s-sideA)*(s-sideB)*(s-sideC));
 
 	}
 

@@ -16,22 +16,36 @@ public class Quadratic
 
 	public Quadratic()
 	{
+		setEquation(0, 0, 0);
+		calcRoots();
 	}
 
 	public Quadratic(int quadA, int quadB, int quadC)
 	{
+		setEquation(quadA, quadB, quadC);
+		calcRoots();
 	}
 
 	public void setEquation(int quadA, int quadB, int quadC)
 	{
+		a = quadA;
+		b = quadB;
+		c = quadC;
+
  	}
 
 	public void calcRoots( )
 	{
+		
+		rootOne = (-b+Math.sqrt(b*b-4*a*c))/2*a;
+		rootTwo = (-b-Math.sqrt(b*b-4*a*c))/2*a;
 	}
 
     public void print()
     {
+		System.out.println("Root 1 == " + rootOne);
+		System.out.println("Root 2 == " + rootTwo);
+
     }
     
     //complete either print or the toString()
