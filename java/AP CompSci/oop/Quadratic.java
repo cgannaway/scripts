@@ -36,9 +36,9 @@ public class Quadratic
 
 	public void calcRoots( )
 	{
-		
-		rootOne = (-b+Math.sqrt(b*b-4*a*c))/2*a;
-		rootTwo = (-b-Math.sqrt(b*b-4*a*c))/2*a;
+		double d = Math.sqrt(Math.pow(b,2)-4*a*c);
+		rootOne = (-b+d)/(2*a);
+		rootTwo = (-b-d)/(2*a);
 	}
 
     public void print()

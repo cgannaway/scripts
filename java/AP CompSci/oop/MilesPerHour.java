@@ -23,7 +23,6 @@ public class MilesPerHour
 	public MilesPerHour(int dist, int hrs, int mins)
 	{
 		setNums(dist,hrs,mins);
-		calcTotHrs();
 	}
 
 	public void setNums(int dist, int hrs, int mins)
@@ -32,17 +31,10 @@ public class MilesPerHour
 		hours = hrs;
 		minutes = mins;
 	}
-	public void calcTotHrs()
-	{
-		int hrsInMin = hours * 60;
-		double totalmin = hrsInMin + minutes;
-		totalHrs = totalmin/60;
-		
-	}
 
 	public void calcMPH()
 	{
-		mph = distance/totalHrs;
+		mph = (double)distance/(hours + ((double)minutes/60));
 	}
 
 	public void print()
