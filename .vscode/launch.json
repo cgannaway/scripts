@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PlayerRunner",
+            "request": "launch",
+            "mainClass": "PlayerRunner",
+            "projectName": "scripts_a49ed7c1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DistanceRunner",
             "request": "launch",
             "mainClass": "DistanceRunner",
